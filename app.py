@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import os
 
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(
@@ -10,11 +9,9 @@ st.set_page_config(
 )
 
 # ── Load model & encoders ────────────────────────────────────
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-model = joblib.load(os.path.join(BASE_DIR, "extra_trees_credit_model.pkl"))
+model = joblib.load("extra_trees_credit_model.pkl")
 encoders = {
-    col: joblib.load(os.path.join(BASE_DIR, f"{col}_encoder.pkl"))
+    col: joblib.load(f"{col}_encoder.pkl")
     for col in ["Sex", "Housing", "Saving accounts", "Checking account"]
 }
 
