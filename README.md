@@ -17,9 +17,20 @@ Banks face significant financial risk when approving loans to applicants who may
 
 ## Demo
 
-**Live App:** https://credit-risk-prediction-dg6ud7pszj5ifwxujh9aql.streamlit.app/
+**🌐 Live App:** https://credit-risk-prediction-dg6ud7pszj5ifwxujh9aql.streamlit.app/
 
 Enter applicant details in the sidebar → click **Predict Credit Risk** → view prediction with confidence score.
+
+---
+
+## Resume Highlights
+
+**Credit Risk Prediction & Classification System**
+*Python · scikit-learn · Streamlit · pandas · seaborn*
+
+- Developed an end-to-end ML pipeline on 1,000 German credit records — covering data cleaning, EDA, and model training — identifying credit amount and loan duration as key risk indicators through statistical analysis and visualization
+- Benchmarked four tree-based classifiers via GridSearchCV with 5-fold cross-validation, selecting Extra Trees (64.8% accuracy) over higher-scoring XGBoost based on generalization performance on small datasets
+- Deployed an interactive Streamlit web application with real-time credit risk predictions and model confidence scoring
 
 ---
 
