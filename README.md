@@ -17,6 +17,8 @@ Banks face significant financial risk when approving loans to applicants who may
 
 ## Demo
 
+**Live App:** https://credit-risk-prediction-dg6ud7pszj5ifwxujh9aql.streamlit.app/
+
 Enter applicant details in the sidebar → click **Predict Credit Risk** → view prediction with confidence score.
 
 ---
